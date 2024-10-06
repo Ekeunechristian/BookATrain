@@ -1,4 +1,4 @@
-# Train Booking Website
+# Train Booking Website (BookATrain)
 
 ## Overview
 This is a fictive train booking platform designed to showcase my web development skills. The project features a fully functional web application that allows different types of users—administrators, registered members, and guest users—to interact with the system.
@@ -39,7 +39,7 @@ The UI/UX has been carefully designed to ensure an intuitive and seamless experi
 
 1. **Clone the repository:**  
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git 
+   git clone https://github.com/Ekeunechristian/BookATrain.git 
 2. **Set up a local server using XAMPP.**  
 3. **Import the SQL database if applicable.**  
 4. **Navigate to the project directory in your web browser.**  
