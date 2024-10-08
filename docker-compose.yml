@@ -1,0 +1,17 @@
+services:
+  web:
+    build: .
+    ports:
+      - '8080:80'
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db  # Include this line only if you're using a db service
+
+  db:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      SA_PASSWORD: 'YourStrong!Passw0rd'
+      ACCEPT_EULA: 'Y'
+    ports:
+      - '1433:1433'
